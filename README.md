@@ -1,6 +1,4 @@
-=======
-<<<<<<< HEAD
-# 🧠 Family Mood App (Hackathon MVP) during Spring Break
+
 =======
 # 🧠 Family Mood App (Hackathon MVP) built in Spring Break
 >>>>>>> 1e34048 (Remove env file from tracking and ignore it)
@@ -203,8 +201,7 @@ This project is a fast, practical implementation of a gamified emotional check-i
 * AI for dynamic content
 * Streamlit for visualization
 
-<<<<<<< HEAD
+
 Designed to feel more like a playful experience than a tracking tool.
 =======
-Designed to feel more like a playful experience than a tracking tool.
->>>>>>> 1e34048 (Remove env file from tracking and ignore it)
+
