@@ -82,3 +82,1547 @@ aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discor
 [2026-05-08 11:11:21] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 3ecd39ef276837bba3f1ece7c4f8dd93.
 [2026-05-08 12:49:05] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 3ecd39ef276837bba3f1ece7c4f8dd93.
 [2026-05-08 14:14:56] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 3ecd39ef276837bba3f1ece7c4f8dd93.
+[2026-05-08 17:20:12] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:20:23] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:20:33] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:20:44] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:20:55] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:06] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:16] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:27] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:38] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:49] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:21:59] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:22:10] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:22:21] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:22:32] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:22:42] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:22:53] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:04] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:15] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:25] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:36] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:47] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:23:58] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:24:08] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:24:19] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:24:30] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:24:41] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:24:51] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:02] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:13] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:24] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:34] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:45] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:25:56] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:26:07] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:26:18] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:26:28] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:26:39] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:26:50] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:27:01] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:27:11] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:27:23] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 848, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+[2026-05-08 17:27:33] [INFO    ] discord.client: logging in using static token
+[2026-05-08 17:27:34] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6bc3bd0d6e9983d6c9542eddc4f42e9d).
+[2026-05-08 17:28:18] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:28:21] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:28:51] [INFO    ] discord.client: logging in using static token
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1574, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1190, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1221, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/resolver.py", line 40, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/bot.py", line 253, in <module>
+    bot.run(TOKEN)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 933, in run
+    asyncio.run(runner())
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 922, in runner
+    await self.start(token, reconnect=reconnect)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 850, in start
+    await self.login(token)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 679, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 844, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 659, in request
+    async with self.__session.request(method, url, **kwargs) as response:
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/client.py", line 1521, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/client.py", line 788, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/client.py", line 742, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1251, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/aiohttp/connector.py", line 1580, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host discord.com:443 ssl:default [Temporary failure in name resolution]
+[2026-05-08 17:29:01] [INFO    ] discord.client: logging in using static token
+[2026-05-08 17:29:02] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1ffb013beb55f521c2957a77279776ab).
+[2026-05-08 17:29:25] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:29] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:32] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:35] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:38] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:41] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ro/Desktop/Mood/bot.py", line 220, in on_message
+    async with message.channel.typing():
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/context_managers.py", line 82, in __aenter__
+    await channel._state.http.send_typing(channel.id)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 793, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 40062): Service resource is being rate limited.
+[2026-05-08 17:29:41] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:44] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:47] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:50] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:54] [WARNING ] discord.http: We are being rate limited. POST https://discord.com/api/v10/channels/1489695695710715997/typing responded with 429. Retrying in 3.00 seconds.
+[2026-05-08 17:29:57] [ERROR   ] discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/client.py", line 508, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/ro/Desktop/Mood/bot.py", line 220, in on_message
+    async with message.channel.typing():
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/context_managers.py", line 82, in __aenter__
+    await channel._state.http.send_typing(channel.id)
+  File "/home/ro/Desktop/Mood/venv/lib/python3.12/site-packages/discord/http.py", line 793, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 429 Too Many Requests (error code: 40062): Service resource is being rate limited.
