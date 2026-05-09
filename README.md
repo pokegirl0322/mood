@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# mood
-Family moodbot from a hackathon project in Spring Break
 =======
-# 🧠 Family Mood App (Hackathon MVP)
+# 🧠 Family Mood App (Hackathon MVP) during Spring Break
 
 ## Overview
 
@@ -203,5 +200,3 @@ This project is a fast, practical implementation of a gamified emotional check-i
 * Streamlit for visualization
 
 Designed to feel more like a playful experience than a tracking tool.
-# mood
->>>>>>> 4e482bf (first commit)
