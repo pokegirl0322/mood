@@ -1,0 +1,18 @@
+2026-05-07 20:28:10.169 Port 8501 is not available
+2026-05-07 20:28:20.823 Port 8501 is not available
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.8:8501
+  External URL: http://68.99.189.218:8501
+
+  Stopping...
+2026-05-07 20:31:32.845 Did not auto detect external IP.
+Please go to https://docs.streamlit.io/ for debugging hints.
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://127.0.0.1:8501
+
